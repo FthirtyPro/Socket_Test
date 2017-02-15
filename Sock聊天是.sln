@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sock聊天是.CSharp", "Sock聊天是.CSharp.csproj", "{788D6D2B-F038-0B15-4D73-A2793DEB052F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sock聊天是.CSharp.Editor", "Sock聊天是.CSharp.Editor.csproj", "{131C4C4B-191E-8B8B-B9E7-193C6D84637D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{788D6D2B-F038-0B15-4D73-A2793DEB052F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788D6D2B-F038-0B15-4D73-A2793DEB052F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788D6D2B-F038-0B15-4D73-A2793DEB052F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788D6D2B-F038-0B15-4D73-A2793DEB052F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131C4C4B-191E-8B8B-B9E7-193C6D84637D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131C4C4B-191E-8B8B-B9E7-193C6D84637D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131C4C4B-191E-8B8B-B9E7-193C6D84637D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131C4C4B-191E-8B8B-B9E7-193C6D84637D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
