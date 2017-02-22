@@ -8,11 +8,12 @@ using UnityEngine;
 public class ChatManger : MonoBehaviour {
 
 
-    public string IPstring;
-    private int Ip;
+    public string Ipstring="192.168.0.112";
+    private int Ip=7788;
     public UIInput textInput;
 
     private Socket SocketClient;
+
 	// Use this for initialization
 	void Start () {
         ClinetConect();
@@ -27,7 +28,7 @@ public class ChatManger : MonoBehaviour {
     void ClinetConect()
     {
         SocketClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-        SocketClient.Connect(new IPEndPoint(IPAddress.Parse(IPstring), Ip));
+        SocketClient.Connect(new IPEndPoint(IPAddress.Parse(Ipstring), Ip));
     }
 
     void SendMessage(string message)
@@ -40,6 +41,7 @@ public class ChatManger : MonoBehaviour {
     {
         string value = textInput.value;
         SendMessage(value);
+        Debug.Log   ("+++");
 
     }
 

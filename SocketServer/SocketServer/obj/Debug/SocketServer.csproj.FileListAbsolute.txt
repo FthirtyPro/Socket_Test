@@ -1,0 +1,1 @@
+D:\_Lijing\Socket\SocketServer\SocketServer\bin\Debug\SocketServer.exe.config
